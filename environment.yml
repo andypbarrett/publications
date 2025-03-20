@@ -1,0 +1,13 @@
+name: publications
+channels:
+ - conda-forge
+ - default
+dependencies:
+ - python ~=3.12
+
+ ###################################################
+ # Imported dependencies and extensions            #
+ ###################################################
+
+ - jupyterlab
+ - matplotlib
